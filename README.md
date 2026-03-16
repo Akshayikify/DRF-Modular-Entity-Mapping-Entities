@@ -36,81 +36,80 @@ These mapping entities represent the relationship between the master entities.
 DRF_ASSIGNMENT/
 │
 ├── certification/
-│   ├── migrations/
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── urls.py
-│   └── views.py
+│ ├── migrations/
+│ ├── admin.py
+│ ├── apps.py
+│ ├── models.py
+│ ├── serializers.py
+│ ├── urls.py
+│ └── views.py
 │
 ├── course/
-│   ├── migrations/
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── urls.py
-│   └── views.py
+│ ├── migrations/
+│ ├── admin.py
+│ ├── apps.py
+│ ├── models.py
+│ ├── serializers.py
+│ ├── urls.py
+│ └── views.py
 │
 ├── course_certification_mapping/
-│   ├── migrations/
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── urls.py
-│   └── views.py
+│ ├── migrations/
+│ ├── admin.py
+│ ├── apps.py
+│ ├── models.py
+│ ├── serializers.py
+│ ├── urls.py
+│ └── views.py
 │
 ├── product/
-│   ├── migrations/
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── urls.py
-│   └── views.py
+│ ├── migrations/
+│ ├── admin.py
+│ ├── apps.py
+│ ├── models.py
+│ ├── serializers.py
+│ ├── urls.py
+│ └── views.py
 │
 ├── product_course_mapping/
-│   ├── migrations/
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── urls.py
-│   └── views.py
+│ ├── migrations/
+│ ├── admin.py
+│ ├── apps.py
+│ ├── models.py
+│ ├── serializers.py
+│ ├── urls.py
+│ └── views.py
 │
 ├── vendor/
-│   ├── migrations/
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── urls.py
-│   └── views.py
+│ ├── migrations/
+│ ├── admin.py
+│ ├── apps.py
+│ ├── models.py
+│ ├── serializers.py
+│ ├── urls.py
+│ └── views.py
 │
 ├── vendor_product_mapping/
-│   ├── migrations/
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── urls.py
-│   └── views.py
+│ ├── migrations/
+│ ├── admin.py
+│ ├── apps.py
+│ ├── models.py
+│ ├── serializers.py
+│ ├── urls.py
+│ └── views.py
 │
-├── drf_main/                # Django project configuration
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
+├── drf_main/
+│ ├── init.py
+│ ├── asgi.py
+│ ├── settings.py
+│ ├── urls.py
+│ └── wsgi.py
 │
-├── drfenv/                  # Python virtual environment
-│
-├── db.sqlite3               # SQLite database
-├── manage.py                # Django management script
-├── requirements.txt         # Project dependencies
-└── README.md                # Project documentation
+├── drfenv/ # Virtual environment
+├── db.sqlite3 # SQLite database
+├── manage.py # Django management script
+├── requirements.txt # Project dependencies
+└── README.md # Project documentation
 
 ---
 
